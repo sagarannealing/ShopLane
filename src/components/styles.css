@@ -1,0 +1,45 @@
+.home{
+    display:flex;
+}
+
+.productContainer{
+    display: flex;
+    width:78%;
+    padding:20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.categories{
+    background-color: rgb(139, 123, 234);
+    color:white;
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    width: 20%;
+    margin:10px;
+    height:86vh;
+}
+
+.categories > span{
+    padding-bottom:50px;
+}
+.categories > .nav-links{
+    padding-bottom: 50px;
+    color:rgb(6, 56, 13);
+   
+}
+.title{
+    font-size: 30px;
+}
+.products {
+    width:27%;
+    
+    margin :10px;
+}
+.wrapper{
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 60px;
+    box-shadow: 10px 5px #888;
+  }
